@@ -48,4 +48,4 @@ app.get('/apps', (req, res) => {
   res.json(results);
 });
 
-module.export = app;
+module.exports = app;
